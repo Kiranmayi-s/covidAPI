@@ -1,12 +1,15 @@
-body {
+  body {
     font-family: Arial;
-    background-image: linear-gradient(to right, grey,grey);
+    background-image:linear-gradient(to top,#273441,#87898a);
   }
-  
+  h1{
+      font-weight: bold;
+      font-size: 35px;
+      margin-top: 20px;
+  }
   * {
     box-sizing: border-box;
   }
-  
   form.example input[type=text] {
     padding: 10px;
     
@@ -16,7 +19,6 @@ body {
     width: 80%;
     background: #f1f1f1;
   }
-  
   form.example button {
     float: left;
     width: 20%;
@@ -28,44 +30,21 @@ body {
     border-left: none;
     cursor: pointer;
   }
-  
   form.example button:hover {
     background: #805080;
   }
-  
   form.example::after {
     content: "";
     clear: both;
     display: table;
   }
-
-#card1{
-    background-image:linear-gradient(to right, #948E99,#613a6e);
-    color: whitesmoke;
-}
-#card2{
-    background-image:linear-gradient(to right,#613a6e, #948E99);
-    color: whitesmoke;
-}
-#imgcard1{
-    background-image:linear-gradient(to right,#727475, #232d38);
-    color: whitesmoke;
-}
-#imgcard2{
-    background-color: #273441;
-    color: whitesmoke;
-}
-#imgcard3{
+.card{
     background-image:linear-gradient(to right,#273441,#87898a);
     color: whitesmoke;
 }
 .card-title{
     color: black;
 }
-#card3{
- color: black;
- font-size: medium; font-weight: bold; background-color: cadetblue;
-}
-#card4{
+.card1{
   color: black; font-size: medium; font-weight: bold;background-color: cadetblue;
 }
