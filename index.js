@@ -13,7 +13,7 @@
     let data = await resp.json();
 
     let confirm = data.All.confirmed; let recover = data.All.recovered;  let deaths =data.All.deaths;  let popul = data.All.population; 
-     let capital = data.All.capital_city; let updated = data.All.updated.slice(0,10);
+     let capital = data.All.capital_city; let updated = data.All.updated;
      let conti = data.All.continent; 
      //the data will be displayed using classname
         document.getElementsByClassName('main')[0].innerHTML = "Continent: "+conti;
