@@ -24,6 +24,9 @@
         document.getElementsByClassName('main')[5].innerHTML = "Recovered Cases: "+recover;
         document.getElementsByClassName('main')[6].innerHTML = "Deaths: "+ deaths;
         document.getElementsByClassName('main')[7].innerHTML = "Data Lastly Updated on: "+updated;
+       if(updated == undefined){
+            document.getElementsByClassName('main')[7].innerHTML = "Data Lastly Updated on: Data not available";
+        }
     }
     catch(error){
         console.log(error);
